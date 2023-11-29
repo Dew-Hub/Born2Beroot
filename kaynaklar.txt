@@ -35,7 +35,7 @@ Port ve root ile giriş yapılamayacağının ayarlanması gereken dosya konumu
 
 
 
-YETKİ VE GURUPLANDIRMA
+#YETKİ VE GURUPLANDIRMA
 
 ~sudo visudo
 Bu komut sudo şifre ayarları ve kullanıcılara verilecek yetkileri düzenlemeye yarayan belgeyi açar.
@@ -54,7 +54,7 @@ Mevcut kullanıcının dahil olduğu guruplarını gösterir
 
 
 
-PAROLA
+#PAROLA
 
 ~sudo vim /etc/pam.d/common-password
 Kullanıcı için gerekli olan şifre politikasının bazı adımlarını sağlamak için libpam-pwquality paketi sayesinde oluşan dosyaya erişim yolu
@@ -70,7 +70,7 @@ Min ve Max parola değiştirme gün sayılarını ve bir kaç bilgi gösterir
 
 
 
-SSH BAĞLANTI
+#SSH BAĞLANTI
 
 ~sudo systemctl status ssh
 ssh servisinin durumunu görüntüleme
