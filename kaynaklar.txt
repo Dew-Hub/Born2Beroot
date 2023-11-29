@@ -9,6 +9,31 @@ Buonturk4242!
 
 Born2Beroot Kodlar
 
+#Evo
+
+~lsblk
+Disk bölümlerini listeleme
+
+~sudo visudo
+Sudo ayarlarının yapıldığı dosyaya giriş yapar
+
+~getent group sudo
+Belirtilen grubun altında bulunan kullanıcıları gösterir
+
+~sudo vim /etc/pam.d/common-password
+
+~sudo vim /etc/login.defs
+
+~sudo hostnamectl set-hostname yeni-host-adı
+
+
+~sudo ufw allow 8080 || sudo ufw delete 4
+Port izni ve silme işlemi 
+
+~sudo vim /etc/ssh/sshd_config
+Port ve root ile giriş yapılamayacağının ayarlanması gereken dosya konumu
+
+
 
 YETKİ VE GURUPLANDIRMA
 
